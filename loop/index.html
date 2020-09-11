@@ -7,8 +7,19 @@
   </head>
   <body>
     <script src="simple.js">
-      for (var i = 1; i <= 5; i++)
-        rectangle(50 * i, 50 * i, 20, 20, "purple");
+      for (var i = 1; i <= 10; i++){
+        tal=random(3);
+        if (tal==0)
+        rectangle(50 * i, 50 * i, 40, 40, "purple");
+        if (tal==1)
+        rectangle(50 * i, 50 * i, 15, 15, "green");
+        if (tal==2)
+        rectangle(50 * i, 50 * i, 30, 30, "red");
+      }
+
+      for (var i = 1; i <= 100; i++){
+        rectangle(50 * i, 0 * i, 20, 20, "purple");
+      }
     </script>
   </body>
 </html>
