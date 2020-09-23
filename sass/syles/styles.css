@@ -13,6 +13,10 @@ header button {
   background: red;
 }
 
+header button::after {
+  content: "Helllooo";
+}
+
 .contact button {
   background: red;
 }

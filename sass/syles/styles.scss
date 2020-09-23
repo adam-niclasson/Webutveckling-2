@@ -8,10 +8,9 @@ header {
   color: $textColor;
   button {
     background: $primaryBtn;
-  }
-  p {
-  }
-  .mainText {
+    &::after {
+      content: "Helllooo";
+    }
   }
 }
 
