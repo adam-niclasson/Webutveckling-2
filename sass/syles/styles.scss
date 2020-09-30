@@ -1,19 +1,4 @@
-$primaryBtn: red;
-$textColor: black;
-
-header {
-  background: lightgreen;
-  display: flex;
-  justify-content: center;
-  color: $textColor;
-  button {
-    background: $primaryBtn;
-    &::after {
-      content: "Helllooo";
-    }
-  }
-}
-
-.contact button {
-  background: $primaryBtn;
-}
+// Main colors
+$leaf_color: lightgreen;
+$redder: rgb(153, 0, 0);
+$super_large: 165px;
