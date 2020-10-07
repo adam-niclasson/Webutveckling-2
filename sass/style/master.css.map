@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,GAAG;CAChB",
+    "sources": [
+        "master.scss",
+        "_function.scss",
+        "_varible.scss",
+        "_varible.scss"
+    ],
+    "names": [],
+    "file": "master.css"
+}
