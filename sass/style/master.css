@@ -1,4 +1,18 @@
-body {
-  background: red;
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1800px;
+  height: 200px;
+  background-color: green;
+}
+
+.main {
+  background: whitesmoke;
+  width: 1800px;
+  height: auto;
 }
 /*# sourceMappingURL=master.css.map */

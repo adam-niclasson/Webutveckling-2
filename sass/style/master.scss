@@ -2,5 +2,17 @@
 @import "./varible";
 
 body {
-  background: red;
+}
+
+.header {
+  @include flex();
+  width: 1800px;
+  height: 200px;
+  background-color: green;
+}
+
+.main {
+  background: whitesmoke;
+  width: 1800px;
+  height: auto;
 }
