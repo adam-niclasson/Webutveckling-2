@@ -1,3 +1,7 @@
+body {
+  height: auto;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5,14 +9,40 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 1800px;
-  height: 200px;
+  width: 1920px;
+  height: 50px;
   background-color: green;
 }
 
 .main {
   background: whitesmoke;
-  width: 1800px;
+  width: 1920px;
   height: auto;
+}
+
+.sidenav {
+  color: aliceblue;
+  height: 858px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  float: right;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 /*# sourceMappingURL=master.css.map */

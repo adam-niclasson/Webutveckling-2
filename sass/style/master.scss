@@ -2,17 +2,42 @@
 @import "./varible";
 
 body {
+  height: auto;
 }
 
 .header {
   @include flex();
-  width: 1800px;
-  height: 200px;
+  width: 1920px;
+  height: 50px;
   background-color: green;
 }
 
 .main {
   background: whitesmoke;
-  width: 1800px;
+  width: 1920px;
   height: auto;
+}
+
+.sidenav {
+  color: aliceblue;
+  height: 858px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 110px;
+  transition: 0.5s;
+  float: right;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
