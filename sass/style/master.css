@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   height: auto;
 }
@@ -15,34 +16,21 @@ body {
 }
 
 .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: whitesmoke;
+  background-image: url(/sass/client/jäger.jpg);
+  background-repeat: no-repeat;
   width: 1920px;
+  height: 2000px;
+}
+
+.mid {
+  width: 1600px;
   height: auto;
-}
-
-.sidenav {
-  color: aliceblue;
-  height: 858px;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 110px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  float: right;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #818181;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 /*# sourceMappingURL=master.css.map */
