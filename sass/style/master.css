@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
   height: auto;
+  background-color: black;
 }
 
 .header {
@@ -22,7 +23,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: whitesmoke;
   background-image: url(/sass/client/jäger.jpg);
   background-repeat: no-repeat;
   width: 1920px;
@@ -30,7 +30,16 @@ body {
 }
 
 .mid {
-  width: 1600px;
+  width: 1130px;
   height: auto;
+  margin-left: 100px;
+  background-color: #3b3b3b;
+  opacity: 90%;
+}
+
+.nav {
+  float: right;
+  width: 190px;
+  background-color: ghostwhite;
 }
 /*# sourceMappingURL=master.css.map */
