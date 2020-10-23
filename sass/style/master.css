@@ -31,15 +31,22 @@ body {
 
 .mid {
   width: 1130px;
-  height: auto;
-  margin-left: 100px;
+  height: 2000px;
+  margin-left: 150px;
   background-color: #3b3b3b;
   opacity: 90%;
 }
 
 .nav {
-  float: right;
-  width: 190px;
-  background-color: ghostwhite;
+  margin-left: 100px;
+  height: 45px;
+}
+
+.nav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
 }
 /*# sourceMappingURL=master.css.map */
